@@ -1,21 +1,25 @@
 package app;
 
 public class Main {
-
+    static int a = 8;
+    static int b = 2;
+    static int c;
+    static int f;
+    static int d;
+    static int g;
     public static void main(String[] args) {
         System.out.println("My app for Users!");
         System.out.println("Version 1.0");
-        int a = 8;
-        int b = 2;
-        int c = add(a, b);
+
+        c = add(a, b);
         System.out.println(c);
-        int d = multiply(a, b);
+        d = multiply(a, b);
         System.out.println(d);
 
-        int f = subtraction(a, b);
+        f = subtraction(a, b);
         System.out.println(f);
 
-        int g = division(a, b);
+        g = division(a, b);
         System.out.println(g);
 
     }
